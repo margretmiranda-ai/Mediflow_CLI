@@ -2,7 +2,6 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import IntPrompt, Prompt
 from rich.table import Table
-
 from src.auth import hash_password
 from src.patient_manager import PatientManager
 from src.persistence import StorageManager
@@ -129,7 +128,10 @@ def delete_patient_ui():
 def main_menu():
     while True:
         display_menu()
+
         choice = IntPrompt.ask("Select an option", choices=["1", "2", "3", "4", "5"])
+        choice = IntPrompt.ask("Select an option", choices=[1, 2, 3, 4, 5])
+
 
         if choice == 1:
             register_patient_ui()
@@ -150,3 +152,6 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+
+    main_menu()
+

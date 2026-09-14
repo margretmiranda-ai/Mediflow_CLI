@@ -3,7 +3,6 @@ import os
 import re
 from datetime import datetime
 
-
 def clear_screen() -> None:
     """Clear the terminal screen based on the operating system."""
     os.system("cls" if os.name == "nt" else "clear")
