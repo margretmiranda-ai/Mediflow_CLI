@@ -130,7 +130,7 @@ def main_menu():
         display_menu()
 
         choice = IntPrompt.ask("Select an option", choices=["1", "2", "3", "4", "5"])
-        choice = IntPrompt.ask("Select an option", choices=[1, 2, 3, 4, 5])
+        choice = IntPrompt.ask("Select an option", choices=["1", "2", "3", "4", "5"])
 
 
         if choice == 1:
