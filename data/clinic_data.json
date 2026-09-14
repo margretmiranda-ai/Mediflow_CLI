@@ -1,0 +1,13 @@
+{
+  "patients": {
+    "maggie": {
+      "username": "maggie",
+      "password_hash": "dd251eea607a830c63034325df3eba5001b2651d0a95de76388e1d6e22b4028c",
+      "salt": "1776d2f193bb79b7c07079fa3cb2ba18",
+      "role": "patient",
+      "age": 21,
+      "contact": "0722411259",
+      "medical_history": []
+    }
+  }
+}
